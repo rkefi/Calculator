@@ -1,0 +1,25 @@
+Defect Title : Minus Sign (-) not displayed in front of the result
+
+Steps to reproduce :
+
+Given I navigate to the Calculator  page
+    And The Calculator main page is displayed
+    When I enter a multiple digit number 2
+    And I choose an arithmetic operation "DIV"
+    And I choose an arithmetic operation "MINUS"
+    And I enter a multiple digit number 3
+    Then The output display is updated with the result of the evaluation of my expression -0.6666666666
+
+
+Actual Results :
+
+The expression is evaluated but the result displayed is 0.66666666.
+When i've inspected the element using the Chrome Developer Tools i found that the web element has the correct value (-0.666666666) which means it's probably a User Interface Issue.
+
+Screenshot attached(ResultDisplayDefect.jpeg file)
+
+Environment :
+
+Mac OSX 10.13.6 - Chrome 70
+Mac OSX 10.13.6 - Firefox 63
+Mac OSX 10.13.6 - Safari 12.02
