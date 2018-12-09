@@ -10,13 +10,13 @@ To save time i've created a python virtual environment called "CalcTaskEnv" that
 ### Behave Project Structure
 
 ```bash
-├── features                             # features folder that contains the feature files with the scenarios definition
-│   ├── pages                            # Page Object Model definition for the calculator web page in python
-│   ├── steps                            # Test steps implementation in python
-│   ├── laytout.feature                  # feature file that contains the scenario for checking User Interface controls
-│   ├── operations.feature               # feature file that contains the scenarios for the arithmetic operations
-│   ├── browser.py                       # Browser instance definition and configuration
-│   ├── environment.py                   # Defining the Tests Setup and Teardown methods
+├── features                          # features folder that contains the feature files with the scenarios definition
+│   ├── pages                         # Page Object Model definition for the calculator web page in python
+│   ├── steps                         # Test steps implementation in python
+│   ├── laytout.feature               # feature file that contains the scenario for checking User Interface controls
+│   ├── operations.feature            # feature file that contains the scenarios for the arithmetic operations
+│   ├── browser.py                    # Browser instance definition and configuration
+│   ├── environment.py                # Defining the Tests Setup and Teardown methods
 
 ```
 
