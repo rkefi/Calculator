@@ -12,10 +12,6 @@ To save time i've created a python virtual environment called "CalcTaskEnv" that
 You need to have Python and virtualenv python package installed on your machine.
 You will need also a browser webdriver downloaded to your machine and it's path added to the PATH environment variable to can execute the tests.
 
-```
-Give examples
-```
-
 ### Running the Tests
 
 1 - Clone this repository
