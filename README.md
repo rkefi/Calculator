@@ -10,7 +10,7 @@ To save time i've created a python virtual environment called "CalcTaskEnv" that
 ### Prerequisites
 
 You need to have Python and virtualenv python package installed on your machine.
-You will need also a browser webdriver downloaded to your machine and it's path added to the PATH environment variable to can execute the tests.
+You will need also a browser webdriver downloaded to your machine.
 
 ### Running the Tests
 
@@ -24,11 +24,25 @@ You will need also a browser webdriver downloaded to your machine and it's path 
 ```
  source CalcTaskEnv/bin/activate
 ```
-4 - Change Directory to the Behave proejct folder :
+4 - Add the Chromedriver path to the virtualenv path variable using this command :
+```
+ export PATH=$PATH:/* your chromedriver path */
+```
+5 - Install nose python package using :
+```
+ pip install nose
+```
+You might get a permission denied exception, if so use sudo before the command and it should work.
+
+6 - Change Directory to the Behave proejct folder :
 ```
  cd CalculatorBehave
 ```
-5 - To Run tests :
+7 - To Run tests :
 ```
  behave
 ```
+
+### Defects Found
+
+In the folder Defects you will find the full description of a UI defect detected with the technical information needed and a screenshot.
