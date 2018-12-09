@@ -10,15 +10,14 @@ To save time i've created a python virtual environment called "CalcTaskEnv" that
 ### Behave Project Structure
 
 ```bash
-├── app
-│   ├── css
-│   │   ├── **/*.css
-│   ├── favicon.ico
-│   ├── images
-│   ├── index.html
-│   ├── js
-│   │   ├── **/*.js
-│   └── partials/template
+├── features                                   # features folder that contains the feature files with the scenarios definition
+│   ├── pages
+│   ├── steps 
+│   ├── laytout.feature
+│   ├── operations.feature
+│   ├── browser.py
+│   ├── environment.py
+
 ```
 
 ### Prerequisites
