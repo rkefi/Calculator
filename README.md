@@ -8,8 +8,9 @@ The project uses Behave as test automation framework with the python programming
 To save time i've created a python virtual environment called "CalcTaskEnv" that contains all the python packages needed to run this project.
 
 ### Behave Project Structure
+
 .
-├── features                    # folder that contains the feature files with the different test scenarios.
+    ├── features                    # folder that contains the feature files with the different test scenarios.
     ├── pages                   # Folder that contains the page objects model definition for the calculator page.
     ├── steps                   # Folder that contains the test steps implementation.
     ├── browser.py              # Browser instance definition and configuration
