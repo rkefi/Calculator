@@ -16,10 +16,23 @@ You will need also a browser webdriver downloaded to your machine and it's path 
 Give examples
 ```
 
-### Installing
+### Running the Tests
 
 1 - Clone this repository
 
+2 - Change Directory to the project folder
 ```
-2 - cd CalculatorTaskRF
+ cd CalculatorTaskRF
+```
+3 - Activate the virutal environment using this command :
+```
+ source CalcTaskEnv/bin/activate
+```
+4 - Change Directory to the Behave proejct folder :
+```
+ cd CalculatorBehave
+```
+5 - To Run tests :
+```
+ behave
 ```
